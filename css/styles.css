@@ -32,8 +32,16 @@ header h2 {
   margin: 0;
   padding: 30px; }
 
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white; }
+
 .navbar {
   background-color: #901CAD; }
+
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
 
 .row-content {
   border-bottom: 1px ridge;

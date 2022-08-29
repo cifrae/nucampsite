@@ -5,6 +5,7 @@ $color-mid: #901CAD;
 $color-pale: #CEC8FF;
 $color-primary: #3046C5;
 $color-secondary: #5637dd;
+$color-teal: #17A2B8;
 $header-font: "Lobster", cursive;
 
 a, a:hover {
@@ -50,8 +51,22 @@ header h2 {
     padding: 30px;
 }
 
+#loginModal {
+    .modal-header {
+        background-color: $color-mid;
+        color: white;
+    }
+}
+
 .navbar {
     background-color: #901CAD;
+}
+
+#reserveModal {
+    .modal-header {
+        background-color: $color-teal;
+        color: white;
+    }
 }
 
 .row-content {
