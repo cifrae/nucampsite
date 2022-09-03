@@ -11,15 +11,11 @@ $(function() {
             $("#carouselButton").children("i").addClass("fa-pause"); 
         }
     });
-});
 
-$(function() {
     $("#loginButton").click(function(){
         $("#loginModal").modal("show");
     });
-});
 
-$(function() {
     $("#reserveButton").click(function(){
         $("#reserveModal").modal("show");
     });
